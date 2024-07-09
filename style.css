@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  align-items: center;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+.menu li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 10px;
+  font-size: 20px;
+  color: black;
+  opacity: 0.9;
+}
+li:hover {
+  color: blue;
+  /* font-size: 18px; */
+  font-weight: bold;
+}
