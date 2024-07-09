@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 15px;
   align-items: center;
-  height: 100px;
+  height: 90px;
 }
 
 .menu {
@@ -22,4 +28,53 @@ li:hover {
   color: blue;
   /* font-size: 18px; */
   font-weight: bold;
+}
+/* banner style added */
+
+.item {
+  position: relative;
+}
+.banner-img {
+  width: 100%;
+  height: 70vh;
+}
+.text-avobe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-image: linear-gradient(to right, #18243fb9, #626a7a00);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.banner-heading {
+  font-size: 70px;
+  width: 500px;
+  margin-bottom: 0;
+  color: white;
+}
+.banner-description {
+  color: white;
+  font-size: 20px;
+}
+.more {
+  color: white;
+  background-color: #015cb5;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+}
+.more:hover {
+  background-color: #fa8714;
+}
+.now {
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 20px;
+}
+.now:hover {
+  background-color: #015cb5;
 }
