@@ -279,3 +279,45 @@ small {
   display: flex;
   justify-content: space-between;
 }
+
+/* deserve footer  style start */
+.deserve-footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #e0e2eb;
+}
+.deserve-img1 {
+  flex: 1 1 0%;
+  background-color: white;
+  box-shadow: 5px 5px 10px black;
+  margin-bottom: 20px;
+}
+.deserve-img2 {
+  flex: 1 1 0%;
+  background-color: white;
+  box-shadow: 5px 5px 10px black;
+  margin-bottom: 20px;
+}
+.deserve-footer-container img {
+  height: 185px;
+  /* border-radius: 0 50% 50% 0; */
+}
+.deserve-img1:hover img {
+  border-radius: 0 50% 50% 0;
+}
+.deserve-img2:hover img {
+  border-radius: 0 50% 50% 0;
+}
+
+hr {
+  border: 2px solid blue;
+}
+.deserve-head {
+  font-size: 25px;
+  padding: 30px 30px 10px 30px;
+}
+.deserve-des {
+  opacity: 0.5;
+  padding: 0 30px 30px 30px;
+}
