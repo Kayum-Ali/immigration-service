@@ -10,6 +10,10 @@ nav {
   padding: 10px 15px;
   align-items: center;
   height: 90px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
 }
 
 .menu {
@@ -28,6 +32,7 @@ li:hover {
   color: blue;
   /* font-size: 18px; */
   font-weight: bold;
+  background-color: #afc2e6;
 }
 /* banner style added */
 
