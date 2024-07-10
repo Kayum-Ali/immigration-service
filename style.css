@@ -64,6 +64,7 @@ li:hover {
   background-color: #015cb5;
   padding: 15px 30px;
   border: none;
+  font-size: 20px;
   border-radius: 20px;
 }
 .more:hover {
@@ -81,6 +82,7 @@ li:hover {
 .container {
   width: 90%;
   margin: 0 auto;
+  max-width: 1192px;
 }
 .best-service {
   display: flex;
@@ -129,4 +131,120 @@ small {
 .icon {
   font-size: 60px;
   color: red;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  display: flex;
+  background-color: #015cb5;
+  width: 300px;
+  padding: 20px 0;
+  border: 10px solid white;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -480px;
+  left: 662px;
+  border-radius: 5px;
+}
+.client {
+  color: white;
+  font-size: 20px;
+}
+.fa-handshake {
+  background-color: #fa8714;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* choose visa section style start */
+.visa-title {
+  text-align: center;
+  width: 500px;
+  margin: 40px auto;
+}
+.visa-description {
+  text-transform: uppercase;
+  color: gray;
+}
+.visa-heading {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.border-container {
+  display: flex;
+  gap: 20px;
+}
+.border1 {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ebeef5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.border2 {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ebeef5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.fa-question {
+  background-color: hsla(219, 6%, 44%, 0.1);
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 0 0 0 50%;
+  color: blue;
+}
+.fa-circle-dollar-to-slot {
+  background-color: hsla(219, 6%, 44%, 0.1);
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 0 0 0 50%;
+  color: blue;
+}
+.fa-chalkboard-user {
+  background-color: hsla(219, 6%, 44%, 0.1);
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 0 0 0 50%;
+  color: blue;
+}
+.fa-user-plus {
+  background-color: hsla(219, 6%, 44%, 0.1);
+  font-size: 30px;
+  padding: 30px;
+  border-radius: 0 0 0 50%;
+  color: blue;
+}
+.border-des {
+  color: hsla(219, 6%, 44%, 0.455);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.border2:hover {
+  background-color: #015bb55b;
+  color: white;
+}
+.border1:hover {
+  background-color: #015bb55f;
+  color: white;
+}
+.form {
+  font-size: 20px;
+  background-color: #fa8714;
+  padding: 15px 0 15px 30px;
+  border: none;
+  border-radius: 20px;
 }
