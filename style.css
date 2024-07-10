@@ -160,8 +160,8 @@ small {
   border-radius: 10px;
 }
 
-/* choose visa section style start */
-/* .visa-title {
+/* choose visa section style start  */
+.visa-title {
   text-align: center;
   width: 500px;
   margin: 40px auto;
@@ -247,4 +247,4 @@ small {
   padding: 15px 0 15px 30px;
   border: none;
   border-radius: 20px;
-} */
+}
