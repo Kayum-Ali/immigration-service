@@ -163,7 +163,7 @@ small {
 /* choose visa section style start  */
 .visa-title {
   text-align: center;
-  width: 500px;
+  width: 600px;
   margin: 40px auto;
 }
 .visa-description {
@@ -383,4 +383,40 @@ hr {
   border: none;
   font-size: 20px;
   border-radius: 20px;
+}
+
+/* supported countries style added  */
+.flag-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  text-align: center;
+  margin: 50px 0;
+}
+.flag-container p {
+  background-color: #ededf5;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+.Rounded {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+.Rounded:hover {
+  transform: rotate(-360deg);
+  transition: all 1s ease;
+}
+.bg:hover {
+  background-color: #10192e;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  transform: rotate(10deg);
+  transition: all 1s ease;
 }
