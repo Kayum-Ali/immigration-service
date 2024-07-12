@@ -393,6 +393,7 @@ hr {
 /* supported countries style added  */
 .flag-container {
   display: flex;
+  height: 250px;
   gap: 20px;
   justify-content: space-between;
   text-align: center;
@@ -424,4 +425,40 @@ hr {
   border-radius: 20px;
   transform: rotate(10deg);
   transition: all 1s ease;
+}
+
+/* photo gallery style start */
+.photo-glary-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px 0;
+  gap: 20px;
+  background-color: white;
+}
+.photo-glary-container div {
+  border-radius: 20px;
+}
+.photo-glary {
+  background-color: #f99735;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+
+  grid-column: span 3 / span 3;
+}
+.rounded {
+  border-radius: 20px;
+}
+.photo-title {
+  padding: 20px;
+}
+.border {
+  border: 2px dotted #f99735;
+  text-align: center;
+  padding: 15px;
+  background-color: #eeececf4;
 }
