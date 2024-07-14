@@ -20,7 +20,7 @@ nav {
   display: flex;
   gap: 20px;
 }
-.menu li {
+.menu .li {
   text-decoration: none;
   list-style-type: none;
   margin: 0 10px;
@@ -28,7 +28,7 @@ nav {
   color: black;
   opacity: 0.9;
 }
-li:hover {
+.li:hover {
   color: blue;
   /* font-size: 18px; */
   font-weight: bold;
@@ -461,4 +461,80 @@ hr {
   text-align: center;
   padding: 15px;
   background-color: #eeececf4;
+}
+/* consultation container start */
+.consultation-container {
+  display: flex;
+}
+.consul-content {
+  /* grid-column: 8; */
+  /* flex: 1 1 0%; */
+  width: 60%;
+}
+.consul-form {
+  /* grid-column: 4; */
+  /* flex: 1 1 0%; */
+  width: 40%;
+}
+
+.ul {
+  margin: 0;
+}
+.list-container {
+  display: flex;
+  gap: 20px;
+  /* padding: 20px; */
+  margin-top: 10px;
+  font-size: 20px;
+
+  align-items: center;
+}
+.list {
+  list-style: none;
+}
+.subtitle {
+  width: 450px;
+  font-size: 20px;
+  text-align: justify;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+.contact {
+  opacity: 0.6;
+}
+.con-title {
+  font-size: 60px;
+  margin: 15px 0;
+}
+.fa-regular {
+  color: white;
+
+  border: none;
+  background-color: #015cb5;
+  border-radius: 20px;
+}
+.list_and_img_con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+.ceo-img {
+  border: 2px solid #f99735;
+  padding: 10px;
+  width: 100%;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+.ceo-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.ceo-p {
+  opacity: 0.7;
+}
+.backgrnd {
+  background-color: #015cb5;
+  /* width: 100%; */
+  height: 100%;
 }
