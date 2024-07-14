@@ -522,7 +522,7 @@ hr {
 .ceo-img {
   border: 2px solid #f99735;
   padding: 10px;
-  width: 100%;
+  width: 90%;
   border-radius: 100%;
   margin-bottom: 20px;
 }
@@ -536,5 +536,27 @@ hr {
 .backgrnd {
   background-color: #015cb5;
   /* width: 100%; */
-  height: 100%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
+  padding: 60px;
+}
+.ceo-con {
+  margin-bottom: 80px;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #015cb5;
+  box-shadow: 5px 5px 10px #cabd26;
+  /* outline: 2px solid #fa8714; */
+}
+input[type="text"]:focus {
+  outline: 2px solid #fa8714;
+}
+.form-input:nth-last-child(3) {
+  height: 200px;
 }
