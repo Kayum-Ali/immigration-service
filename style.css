@@ -664,7 +664,7 @@ input[type="text"]:focus {
   content: "";
   bottom: 0;
   left: 0;
-  background: linear-gradient(to right, #015cb5, red);
+
   border-radius: 100px;
   transition: all 1s;
 }
@@ -673,6 +673,7 @@ input[type="text"]:focus {
 }
 .footer-bottom li:hover::after {
   width: 100%;
+  background: linear-gradient(to right, red, #015cb5);
   color: white;
 }
 .foot-input-container {
