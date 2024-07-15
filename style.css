@@ -728,3 +728,17 @@ input[type="text"]:focus {
   margin-top: 50px;
   color: white;
 }
+.fa-chevron-up:hover {
+  background-color: transparent;
+}
+
+.copy {
+  background-color: #0d1a36;
+  color: white;
+  padding: 20px;
+}
+.copy div {
+  background-color: gray !important;
+  border: 1px solid gray !important;
+  margin-bottom: 10px;
+}
