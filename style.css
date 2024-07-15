@@ -660,13 +660,13 @@ input[type="text"]:focus {
   position: absolute;
   margin-bottom: -5px;
   height: 2px;
-  /* width: 100%; */
+  width: 10%;
   content: "";
   bottom: 0;
   left: 0;
   background: linear-gradient(to right, #015cb5, red);
   border-radius: 100px;
-  transition: all 3s;
+  transition: all 1s;
 }
 .footer-bottom li:hover {
   color: white;
