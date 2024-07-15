@@ -560,3 +560,56 @@ input[type="text"]:focus {
 .form-input:nth-last-child(3) {
   height: 200px;
 }
+/* footer style */
+.footer-content{
+  display: flex;
+  height: 150px;
+  margin: 50px 0;
+}
+.footer-img{
+  width: 100%;
+}
+.footer-section{
+  display: flex;
+  background-color: #015cb5;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  gap: 15px;
+  padding: 40px;
+  color: white;
+}
+.footer-logo{
+  background-color: #fa8714;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contact{
+  font-weight: 700;
+  border-right: 2px solid #cabd26;
+  padding: 15px;
+  
+
+}
+.footer-contact p{
+  margin-top: 10px;
+}
+.footer-btn{
+  padding: 20px 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+.footer-btn:hover {
+  background-color: #f99735;
+  /* transform: scale( 10px, 20px); */
+  /* transform: skew(2deg, 5deg); */
+  transform: rotate(360deg);
+  transition: all 1s ease-out;
+}
+  
+
+
