@@ -561,15 +561,15 @@ input[type="text"]:focus {
   height: 200px;
 }
 /* footer style */
-.footer-content{
+.footer-content {
   display: flex;
   height: 150px;
   margin: 50px 0;
 }
-.footer-img{
+.footer-img {
   width: 100%;
 }
-.footer-section{
+.footer-section {
   display: flex;
   background-color: #015cb5;
   align-items: center;
@@ -579,23 +579,21 @@ input[type="text"]:focus {
   padding: 40px;
   color: white;
 }
-.footer-logo{
+.footer-logo {
   background-color: #fa8714;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer-contact{
+.footer-contact {
   font-weight: 700;
   border-right: 2px solid #cabd26;
   padding: 15px;
-  
-
 }
-.footer-contact p{
+.footer-contact p {
   margin-top: 10px;
 }
-.footer-btn{
+.footer-btn {
   padding: 20px 20px;
   background-color: black;
   color: white;
@@ -605,11 +603,7 @@ input[type="text"]:focus {
 }
 .footer-btn:hover {
   background-color: #f99735;
-  /* transform: scale( 10px, 20px); */
-  /* transform: skew(2deg, 5deg); */
+
   transform: rotate(360deg);
   transition: all 1s ease-out;
 }
-  
-
-
